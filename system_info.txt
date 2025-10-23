@@ -1,0 +1,30 @@
+Device & Software Info
+======================
+Octave: Octave 10.2.0
+OS:
+
+
+Caption        : Microsoft Windows 11 Pro
+Version        : 10.0.26100
+OSArchitecture : 64-bit
+
+
+
+
+
+CPU:
+
+
+Name                      : Intel(R) Core(TM) i9-14900KF
+NumberOfCores             : 24
+NumberOfLogicalProcessors : 32
+MaxClockSpeed             : 3200
+
+
+
+
+
+RAM:
+TotalPhysicalMemoryGiB: 127.78
+TotalPhysicalMemoryBytes: 137208057856
+
