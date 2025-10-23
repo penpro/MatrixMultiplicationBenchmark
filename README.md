@@ -4,7 +4,7 @@ This repository benchmarks two matrix–vector multiplication kernels in GNU Oct
 
 Files included are `Mv_mult_1.m`, `Mv_mult_2.m`, and `MatrixMultBenchMarker.m`. When you run the driver it will create `mv_timings.csv` (raw data), `scatter_times.png` and `boxplot_times.png` (plots), and `system_info.txt` (Octave version, OS, CPU, RAM) in the working folder.
 
-Requirements are GNU Octave (version 7 or 8 recommended). The Octave Forge `statistics` package provides `boxplot`. Install it once with `pkg install -forge statistics` and load it in each Octave session with `pkg load statistics`. If the GUI does not show figures, set `graphics_toolkit('qt')` or use `graphics_toolkit('gnuplot')` as a fallback.
+Requirements are GNU Octave (version 7 or 8 recommended). The Octave Forge `statistics` package provides `boxplot`. Install it once with `pkg install -forge statistics` (after running the command it can take upwards of 30 minutes to install depending on internet traffic etc so just run it and go get lunch or something) and load it in each Octave session with `pkg load statistics`. If the GUI does not show figures, set `graphics_toolkit('qt')` or use `graphics_toolkit('gnuplot')` as a fallback.
 
 Quick start: open Octave, change to the repository folder, set a graphics toolkit if needed, load the statistics package, and run the driver. Example:
 ```
