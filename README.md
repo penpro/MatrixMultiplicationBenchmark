@@ -28,4 +28,4 @@ Notes on interpretation: Octave stores arrays in column-major order. `Mv_mult_2`
 
 Troubleshooting tips: if figures do not appear, run `graphics_toolkit('qt')` and `set(0,'DefaultFigureVisible','on')`. If `boxplot` fails, confirm that `statistics` is installed and loaded using `pkg load statistics; which boxplot`. If the box plot looks empty, verify that timing data exists and is finite with `whos time_call_all n_all func_id_all` and `sum(isfinite(time_call_all))`. On newer Windows versions the `wmic` tool is not present; this driver uses PowerShell `Get-CimInstance` calls for system info instead.
 
-License: MIT unless you choose otherwise. Add a `LICENSE` file if you want to formalize it.
+License: MIT for Octave
